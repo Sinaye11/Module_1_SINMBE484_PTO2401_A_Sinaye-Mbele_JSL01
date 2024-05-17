@@ -10,12 +10,12 @@ function validateSyntax() {
 
             // If statement that  will check if the criteria is met
             if (check.test(input)){
-                result = "Valid Syntax \u{1F7E2}"; //What will be printed if its met with a green circle
+                result = "Valid Syntax \u{1F7E2}"; //What will be printed if criteria is met with a green circle
             }
             else {
-                result = "Invalid Syntax \ud83d\udd34";  //What will be printed if its not met with a red circle
+                result = "Invalid Syntax \ud83d\udd34";  //What will be printed if criteria is not met with a red circle
             }
-            document.getElementById('result').innerText = result;
+            document.getElementById('result').innerText = result; //Returns the text content of an element
 
 }
 
